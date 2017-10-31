@@ -1,0 +1,118 @@
+html {
+  padding:0;
+  margin:0;
+}
+
+body {
+  font: normal 100% Helvetica, Arial, sans-serif;
+  font-family: "Micsoft Yahei",Helvetica,Tahoma,Verdana,STHeiTi,simsun,sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+  text-align: center;
+　}
+
+.logo {
+  margin-top: 18%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 220px;
+  height: 220px;
+  background-image: url('../images/qrcode.png');
+  background-size: cover;
+}
+
+.logo img{
+  width: 30%;
+}
+
+.app-name{
+  margin-left: auto;
+  margin-right: auto;
+  margin: 5% auto;
+  font-size: 1.8em;
+  color: #333;
+  text-align: center;
+}
+
+.app-slogan{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15%;
+  font-size: 1.2em;
+  color: #666;
+  text-align: center;
+}
+
+
+.btn-container {
+  margin: 7% auto;
+  width: 80%;
+}
+
+.btn-container a{
+  text-decoration: none;
+}
+
+.btn-container .label{
+  color: #fff;
+  font-size: 1.4em;
+  padding-top: 0.8em;
+  padding-left: 38%;
+  display: block;
+  text-align: left;
+}
+
+.btn-container .version{
+  color: #fff;
+  font-size: 0.8em;
+  padding-left: 38%;
+  padding-top: 8px;
+  display: block;
+  text-align: left;
+}
+.btn {
+  height: 5.0em;
+
+  -webkit-border-radius: 4.0em;
+  border-radius: 4.0em;
+  cursor: pointer;
+
+  background-repeat: no-repeat;
+  background-position: 18% 50%;
+  background-size: 2.8em;
+}
+
+.iphone {
+  background-color: #444;
+  background-image: url(../images/ios.png);
+}
+
+.android {
+  background-color: #8acb48;
+  background-image: url(../images/android.png);
+}
+
+.unsupport-container {
+  margin: 0 auto 7% auto;
+  width: 100%;
+
+}
+
+.tip-title {
+  font-size: 1.1em;
+  color: #000;
+  text-align: center;
+  margin-top: 3%;
+}
+#fork {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+@media only screen and (max-width: 760px) {
+  .logo{
+    width: 110px;
+    height: 110px;
+    background-image: url('../images/icon.png');
+  }
+}

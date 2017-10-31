@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="iscanner demo" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    name="viewport" />
+    <title>
+      iScanner - An easy-to-use scanner.
+    </title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon"
+    />
+    <link rel="stylesheet" href="stylesheet/iscanner.css" />
+  </head>
+  <body>
+    <a href="//github.com/iscanner/" id="fork" target="_blank">
+      <img alt="Fork me on GitHub" src="./images/forkme.png"/>
+    </a>
+    <div class="content">
+      <div class="logo">
+      </div>
+      <div class="app-name">
+        iScanner
+      </div>
+      <div class="app-slogan">
+      Fast exact and light scanner.
+      </div>
+      <div class="download" id="download">
+        <div class="btn-container">
+          <a href="https://itunes.apple.com/us/app/easyscanner/id962711541?l=zh&ls=1&mt=8">
+            <div class="btn iphone">
+              <span class="label">iPhone</span>
+              <span class="version">版本号：<b id="ios_version"></b></span>
+            </div>
+          </a>
+        </div>
+        <div class="btn-container">
+          <a href="//npmcdn.com/iscanner_android@latest/app/build/outputs/apk/debug/app-debug.apk">
+            <div class="btn android">
+              <span class="label">Android</span>
+              <span class="version">版本号：<b id="android_version"></b></span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="unsupport-container" id="unsupport" style="display:none">
+        <div class="tip-title">
+          检测到您在用微信，无法直接下载
+        </div>
+        <div class="tip-title">
+          请点击右上角，选择“在浏览器中打开”
+        </div>
+      </div>
+    </div>
+    <script src="javascript/iscanner.js"></script>
+  </body>
+</html>
