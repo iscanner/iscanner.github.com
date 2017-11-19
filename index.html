@@ -5,17 +5,51 @@
     <meta name="description" content="iscanner demo" />
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
     name="viewport" />
-    <title>
-      iScanner - An easy-to-use scanner.
-    </title>
-    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon"
-    />
+    <title>iScanner - An easy-to-use scanner.</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="stylesheet/iscanner.css" />
+    <style>
+    .github-ribbon {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+      z-index: 99999;
+    }
+    .github-ribbon a {
+      display: inline-block;
+      width: 200px;
+      overflow: hidden;
+      padding: 6px 0px;
+      text-align: center;
+      transform: rotate(45deg);
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      position: inherit;
+      top: 45px;
+      right: -40px;
+      border-width: 1px 0px;
+      border-style: dotted;
+      border-color: rgba(255, 255, 255, 0.7);
+      font-style: normal;
+      font-variant-ligatures: normal;
+      font-variant-caps: normal;
+      font-weight: 700;
+      font-stretch: normal;
+      font-size: 13px;
+      line-height: normal;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 3px 0px;
+      background-color: rgb(170, 0, 0);
+    }
+    </style>
   </head>
   <body>
-    <a href="//github.com/iscanner/" id="fork" target="_blank">
-      <img alt="Fork me on GitHub" src="./images/forkme.png"/>
-    </a>
+    <div class="github-ribbon">
+      <a target="_blank" href="https://github.com/iscanner/">Fork me on GitHub</a>
+    </div>
     <div class="content">
       <div class="logo">
       </div>
@@ -30,7 +64,7 @@
           <a href="https://itunes.apple.com/us/app/easyscanner/id962711541?l=zh&ls=1&mt=8">
             <div class="btn iphone">
               <span class="label">iPhone</span>
-              <span class="version">版本号：<b id="ios_version"></b></span>
+              <span class="version">Version：<b id="ios_version"></b></span>
             </div>
           </a>
         </div>
@@ -38,7 +72,7 @@
           <a href="//npmcdn.com/iscanner_android@latest/app/build/outputs/apk/debug/app-debug.apk">
             <div class="btn android">
               <span class="label">Android</span>
-              <span class="version">版本号：<b id="android_version"></b></span>
+              <span class="version">Version：<b id="android_version"></b></span>
             </div>
           </a>
         </div>
